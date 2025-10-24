@@ -36,20 +36,22 @@ export const About = () => {
           </h2>
           <div className="space-y-4 text-gray-600 leading-relaxed">
             <p className="text-lg">
-              I'm a passionate software engineer with 1+ years of experience
-              creating software that make a difference. I specialize in modern
-              web technologies and love bringing creative ideas to life through
-              clean, efficient code.
+              I'm a software engineer with a little over a year of hands-on
+              experience building and maintaining applications that solve
+              real-world problems. I've worked across the stack, contributing to
+              everything from backend APIs and databases to frontend interfaces
+              and developer tools.
             </p>
             <p>
-              When I'm not coding, you'll find me exploring new design trends. I
-              believe in continuous learning and staying ahead of the curve in
-              this ever-evolving field.
+              My background includes experience with technologies like
+              TypeScript, React, Node.js Go, but I'm always curious and open to
+              learning whatever the job calls for. I value clean code,
+              collaborative development, continuous improvement and building
+              products that are actually useful.
             </p>
             <p>
-              My approach combines technical expertise with creative
-              problem-solving, ensuring that every project is not just
-              functional, but also beautiful and user-friendly.
+              I'm always open to learning new technologies, tackling challenging
+              projects, and connecting with others in the tech space.
             </p>
           </div>
         </div>

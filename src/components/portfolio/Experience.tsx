@@ -5,30 +5,34 @@ import { LuCalendarDays, LuMapPin } from "react-icons/lu";
 
 const experiences = [
   {
-    company: "Gears of Future Advanced Electronics Pvt. Ltd.",
+    company: "GFX Technologies",
     position: "Software Engineer",
     location: "Bengaluru, Karnataka, India",
     duration: "July 2024 - Present",
     description:
-      "Developed and deployed a SaaS platform for construction progress monitoring with a React Native app and web-based comparison tool, enabling 360° panoramic tracking across multiple sites.",
+      "Developed and deployed a SaaS platform for construction progress monitoring with a React Native app and web-based comparison tool, enabling 360° panoramic tracking across multiple sites. Also worked on the e-commerce platform on product search and payment gateway",
     technologies: [
       "React",
       "React Native",
       "Node.js",
+      "Express.js",
       "TypeScript",
       "Firebase",
+      "Postgres",
       "Google Cloud",
     ],
     achievements: [
       "Built a 360° construction progress tracking SaaS platform.",
-      "Reduced on-site reporting by 40% with secure data sharing.",
-      "Optimized invoice generation speed by 30%.",
-      "Increased engagement with real-time data sync.",
-      "Cut infrastructure costs by 18%.",
+      "Optimized invoice generation speed by 30%",
+      "Automated payments with PayU recurring payment integration",
+      "<100ms product search via Firestore-Algolia sync for 10K+ products using Cloud Functions",
+      "+20% recommendation relevance using Firestore-BigQuery/Postgres sync with semantic embeddings",
+      "Cut infra costs by ~20% by migrating APIs to Cloud Functions and optimizing scalability",
+      "Reduced on-site reporting by 40% with timeline-based progress visualization",
     ],
   },
   {
-    company: "Gears of Future Advanced Electronics Pvt. Ltd.",
+    company: "GFX Technologies",
     position: "Software Engineer Intern",
     location: "Bengaluru, Karnataka, India",
     duration: "January 2024 - June 2024",
@@ -36,10 +40,10 @@ const experiences = [
       "Developed a cross-platform desktop app to automate product price updates and competitor price tracking. Enhanced SEO performance through automated metadata management and increasing organic traffic.",
     technologies: ["React", "TypeScript", "Electron.js", "REST APIs"],
     achievements: [
-      "Built a desktop app to automate product price updates via APIs and web crawlers.",
-      "Increased product sales by 8% with real-time dynamic pricing.",
-      "Improved SEO performance with centralized management of meta tags and descriptions.",
-      "Boosted organic traffic by 22% through bulk SEO automation.",
+      "Built a desktop app to automate product price updates via APIs and web crawlers",
+      "Drove +8% sales with real-time dynamic pricing based on automated competitor data",
+      "Created a centralised SEO management system for 10K+ products and categories",
+      "Boosted +22% organic traffic by automating bulk SEO metadata updates via APIs",
     ],
   },
 ];

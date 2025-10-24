@@ -2,7 +2,6 @@
   "name": "rolvin-portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://rolvinnoronha.github.io/rolvin-portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
