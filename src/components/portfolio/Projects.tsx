@@ -3,41 +3,92 @@ import { Card } from "../ui/card";
 import { Badge } from "../ui/badge";
 import { Button } from "../ui/button";
 import { LuGithub } from "react-icons/lu";
-import socialMedia from "../../assets/social-media.png";
 import fileStorage from "../../assets/file-storage.png";
-import chatApp from "../../assets/chat-app.png";
+import leetcodeClone from "../../assets/leetcode-clone.png";
+import rfpManagementSystem from "../../assets/rfp-management.png";
 
 const projects = [
   {
-    title: "File Uploader",
+    title: "File Storage",
     description:
       "An application allowing users to upload, view, download, and delete files.",
     image: fileStorage,
-    technologies: ["React", "TypeScript", "Java", "Spring Boot", "Postgres"],
+    technologies: [
+      "React",
+      "TypeScript",
+      "Go",
+      "Gin Framework",
+      "Elasticsearch",
+      "GORM",
+      "Goose",
+      "Postgres",
+      "Docker",
+      "S3",
+    ],
     // liveUrl: "https://weather-dash.com",
-    githubUrl: "https://github.com/RolvinNoronha/file-uploader",
+    githubUrl: "https://github.com/RolvinNoronha/file-storage",
     featured: true,
   },
   {
-    title: "Chat App",
+    title: "Leetcode Clone",
     description:
-      "An application allowing users to chat in real-time using WebSocket connections within chat rooms",
-    image: chatApp,
-    technologies: ["React", "TypeScript", "Go", "Gin Framework"],
-    // liveUrl: "https://taskflow.app",
-    githubUrl: "https://github.com/RolvinNoronha/chat-app",
+      "An application for practising DSA problems where users can write and test code in browser ",
+    image: leetcodeClone,
+    technologies: [
+      "React",
+      "TypeScript",
+      "Java",
+      "Spring Boot",
+      "Spring Security",
+      "Hibernate",
+      "Postgres",
+      "Flyway",
+      "Docker",
+      "Google Cloud",
+    ],
+    // liveUrl: "https://weather-dash.com",
+    githubUrl: "https://github.com/RolvinNoronha/dsaprep",
     featured: true,
   },
   {
-    title: "Social Media App",
+    title: "RFP Management System",
     description:
-      "An application where a users are able to upload image, like, comment and interact with other users, including following other users and engaging with their posts.",
-    image: socialMedia,
-    technologies: ["React", "TypeScript", "Next.js", "Firebase"],
-    // liveUrl: "https://demo-ecommerce.com",
-    githubUrl: "https://github.com/RolvinNoronha/SocialMediaApp",
+      "An application to help organizations create, send, and manage Requests for Proposals (RFPs) using AI.",
+    image: rfpManagementSystem,
+    technologies: [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "Drizzle ORM",
+      "Postgres",
+      "Gemini API",
+    ],
+    // liveUrl: "https://weather-dash.com",
+    githubUrl: "https://github.com/RolvinNoronha/rfp-management",
     featured: true,
   },
+  // {
+  //   title: "Chat App",
+  //   description:
+  //     "An application allowing users to chat in real-time using WebSocket connections within chat rooms",
+  //   image: chatApp,
+  //   technologies: ["React", "TypeScript", "Go", "Gin Framework"],
+  //   // liveUrl: "https://taskflow.app",
+  //   githubUrl: "https://github.com/RolvinNoronha/chat-app",
+  //   featured: true,
+  // },
+  // {
+  //   title: "Social Media App",
+  //   description:
+  //     "An application where a users are able to upload image, like, comment and interact with other users, including following other users and engaging with their posts.",
+  //   image: socialMedia,
+  //   technologies: ["React", "TypeScript", "Next.js", "Firebase"],
+  //   // liveUrl: "https://demo-ecommerce.com",
+  //   githubUrl: "https://github.com/RolvinNoronha/SocialMediaApp",
+  //   featured: true,
+  // },
+
   {
     title: "Portfolio Website",
     description:
@@ -80,7 +131,7 @@ export const Projects = () => {
                 alt={project.title}
                 className="w-full h-64 object-cover group-hover:scale-105 transition-smooth"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-smooth"></div>
+              <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-smooth"></div>
               <div className="absolute bottom-4 left-4 right-4 transform translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-smooth">
                 <div className="flex gap-2">
                   {/* <Button size="sm" variant="secondary" asChild>

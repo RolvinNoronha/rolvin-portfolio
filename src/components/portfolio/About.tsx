@@ -17,12 +17,12 @@ const skills = [
   {
     icon: LuDatabase,
     title: "Databases & Tools",
-    description: "MySQL, Postgres, Git & GitHub, Docker, Postman, Firebase",
+    description: "Redis, Postgres, Git & GitHub, Docker, Postman, Firebase",
   },
   {
     icon: LuCloud,
     title: "Cloud",
-    description: "AWS, Google Cloud",
+    description: "Google Cloud",
   },
 ];
 

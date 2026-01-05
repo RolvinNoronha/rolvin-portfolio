@@ -70,7 +70,7 @@ export const Education = () => {
             >
               <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-6">
                 <div className="flex items-start mb-4 lg:mb-0">
-                  <div className="bg-primary/10 p-3 rounded-lg mr-4 flex-shrink-0">
+                  <div className="bg-primary/10 p-3 rounded-lg mr-4 shrink-0">
                     <LuGraduationCap className="w-8 h-8 text-primary" />
                   </div>
                   <div>

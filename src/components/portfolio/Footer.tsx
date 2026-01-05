@@ -39,7 +39,7 @@ export const Footer = () => {
 
           <div className="border-t border-gray-800 pt-8">
             <p className="text-gray-400 text-sm flex items-center justify-center">
-              © 2025 Rolvin Noronha
+              © 2026 Rolvin Noronha
               {/* Made with
               <LuHeart className="w-4 h-4 mx-1 text-red-500" />
               and lots of coffee. */}
